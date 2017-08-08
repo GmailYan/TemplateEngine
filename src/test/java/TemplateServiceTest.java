@@ -1,4 +1,4 @@
-package yanben.templateService.test;
+package test.java;
 
 import static org.junit.Assert.assertEquals;
 
