@@ -1,4 +1,4 @@
-package yanben.templateService.apache.velocity;
+package main.java.templateService.apacheVelocity;
 
 import java.io.StringWriter;
 import java.util.List;
@@ -8,8 +8,8 @@ import org.apache.commons.lang.StringUtils;
 import org.apache.velocity.VelocityContext;
 import org.apache.velocity.app.VelocityEngine;
 
-import yanben.templateService.main.Context;
-import yanben.templateService.main.Template;
+import main.java.templateService.Context;
+import main.java.templateService.Template;
 
 public class TemplateService {
 	

@@ -1,4 +1,4 @@
-package yanben.templateService.main;
+package main.java.templateService;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

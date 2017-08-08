@@ -8,9 +8,9 @@ import java.util.List;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import yanben.templateService.apache.velocity.TemplateService;
-import yanben.templateService.main.Context;
-import yanben.templateService.main.Template;
+import main.java.templateService.Context;
+import main.java.templateService.Template;
+import main.java.templateService.apacheVelocity.TemplateService;
 
 public class TemplateServiceTest {
 

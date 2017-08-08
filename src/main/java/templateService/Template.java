@@ -1,4 +1,4 @@
-package yanben.templateService.main;
+package main.java.templateService;
 
 public class Template {
 
