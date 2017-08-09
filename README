@@ -1,0 +1,18 @@
+How to use
+
+Run maven build to compile this Spring Boot Application into a executable jar,
+Then run the jar to start the RestAPI server using the following command:
+
+java -jar TemplateEngine-0.0.1-SNAPSHOT.jar start
+
+
+It is also possible to run a packaged application with remote debugging support enabled. This allows you to attach a debugger to your packaged application:
+
+$ java -Xdebug -Xrunjdwp:server=y,transport=dt_socket,address=8000,suspend=n \
+       -jar target/myproject-0.0.1-SNAPSHOT.jar
+       
+       
+19.3 Using the Maven plugin
+The Spring Boot Maven plugin includes a run goal which can be used to quickly compile and run your application. Applications run in an exploded form just like in your IDE.
+
+$ mvn spring-boot:run
